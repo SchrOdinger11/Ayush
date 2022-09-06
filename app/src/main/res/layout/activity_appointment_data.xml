@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<TextView
+    android:id="@+id/titleText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:textSize="25dp"
+    android:fontFamily="@font/poppins_semibold"
+    android:gravity="center_horizontal|top"
+    android:lineSpacingExtra="-4sp"
+    android:text="User Data"
+    android:textAppearance="@style/service_pro"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.489"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.149" />
+
+<View
+    android:id="@+id/separator2"
+    android:layout_width="0dp"
+    android:layout_height="1dp"
+    android:layout_marginTop="8dp"
+
+    android:background="@android:color/black"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/titleText" />
+
+<TextView
+    android:id="@+id/text_name"
+    android:layout_width="300dp"
+    android:layout_height="25dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="12dp"
+    android:fontFamily="@font/poppins_semibold"
+    android:gravity="center_horizontal|top"
+    android:lineSpacingExtra="-4sp"
+    android:text="Affiliation: Government"
+    android:textAppearance="@style/service_pro"
+
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.495"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/separator2" />
+
+<View
+    android:id="@+id/separator3"
+    android:layout_width="0dp"
+    android:layout_height="1dp"
+    android:layout_marginTop="2dp"
+
+    android:background="@android:color/black"
+
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/text_name"
+    app:layout_constraintVertical_bias="0.025" />
+
+<TextView
+    android:id="@+id/text_no"
+    android:layout_width="300dp"
+    android:layout_height="25dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="12dp"
+    android:fontFamily="@font/poppins_semibold"
+    android:gravity="center_horizontal|top"
+    android:lineSpacingExtra="-4sp"
+    android:text="Email ID: abc.xyz@gmail.com"
+    android:textAppearance="@style/service_pro"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.497"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/separator3" />
+<View
+    android:id="@+id/separator4"
+    android:layout_width="0dp"
+    android:layout_height="1dp"
+    android:layout_marginTop="2dp"
+
+    android:background="@android:color/black"
+
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/text_no"
+    app:layout_constraintVertical_bias="0.025" />
+
+<TextView
+    android:id="@+id/text_msg"
+    android:layout_width="300dp"
+    android:layout_height="25dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="12dp"
+    android:fontFamily="@font/poppins_semibold"
+    android:gravity="center_horizontal|top"
+    android:lineSpacingExtra="-4sp"
+    android:text=""
+    android:textAppearance="@style/service_pro"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.497"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/separator4" />
+<View
+    android:id="@+id/separator5"
+    android:layout_width="0dp"
+    android:layout_height="1dp"
+    android:layout_marginTop="2dp"
+
+    android:background="@android:color/black"
+
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/text_msg"
+    app:layout_constraintVertical_bias="0.025" />
+
+<TextView
+    android:id="@+id/text_symp"
+    android:layout_width="300dp"
+    android:layout_height="25dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="12dp"
+    android:fontFamily="@font/poppins_semibold"
+    android:gravity="center_horizontal|top"
+    android:lineSpacingExtra="-4sp"
+    android:text="Website: www.abcd.com"
+    android:textAppearance="@style/service_pro"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.497"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/separator5" />
+<!--<View-->
+<!--    android:id="@+id/separator6"-->
+<!--    android:layout_width="0dp"-->
+<!--    android:layout_height="1dp"-->
+<!--    android:layout_marginTop="2dp"-->
+
+<!--    android:background="@android:color/black"-->
+
+<!--    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--    app:layout_constraintRight_toRightOf="parent"-->
+<!--    app:layout_constraintStart_toStartOf="parent"-->
+<!--    app:layout_constraintTop_toBottomOf="@+id/text_symp"-->
+<!--    app:layout_constraintVertical_bias="0.025" />-->
+
+<!--<TextView-->
+<!--    android:id="@+id/text_hc5"-->
+<!--    android:layout_width="300dp"-->
+<!--    android:layout_height="25dp"-->
+<!--    android:layout_alignParentLeft="true"-->
+<!--    android:layout_alignParentTop="true"-->
+<!--    android:layout_marginTop="12dp"-->
+<!--    android:fontFamily="@font/poppins_semibold"-->
+<!--    android:gravity="center_horizontal|top"-->
+<!--    android:lineSpacingExtra="-4sp"-->
+<!--    android:text="Specialities: Orthopedic, Gastrointestinal"-->
+<!--    android:textAppearance="@style/service_pro"-->
+<!--    app:layout_constraintEnd_toEndOf="parent"-->
+<!--    app:layout_constraintHorizontal_bias="0.497"-->
+<!--    app:layout_constraintStart_toStartOf="parent"-->
+<!--    app:layout_constraintTop_toBottomOf="@+id/separator6" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

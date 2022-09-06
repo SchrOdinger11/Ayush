@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_admin_ek2_color">#FFFFFF</color>
+    <color name="kokilaben_hospital_color">#05182A</color>
+    <color name="button_ek2_color">#032068</color>
+    <color name="jeevayush_color">#000080</color>
+    <color name="rectangle_990_color">#E4F9FF</color>
+    <color name="rectangle_68_color">#ffffff</color>
+    <color name="see_more_color">#1976D2</color>
+    <color name="search_ek1_color">#A9A9A9</color>
+    <color name="ellipse_335_color">#FB4141</color>
+    <color name="online_color">#00CC96</color>
+    <color name="my_account_color">#2F2F2F</color>
+    <color name="rectangle_996_color">#FAFAFA</color>
+    <color name="ellipse_1901_color">#77E3FF</color>
+    <color name="kokilaben_hospital_ek9_color">#000000</color>
+    <color name="a_one_stop_portal_for_ayush_services__users_as_well_as_providers_color">#3D3737</color>
+    <color name="rectangle_990_ek1_color">#082746</color>
+    <color name="rectangle_68_ek1_color">#0C2C4C</color>
+    <color name="rectangle_70_ek1_color">#0C2844</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorDivider">#ECECEC</color>
+    <color name="grey">#C0C0C0</color>
+    <color name="dark_grey">#A9A9A9</color>
+</resources>

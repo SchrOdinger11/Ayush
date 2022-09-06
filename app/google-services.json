@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "684668735271",
+    "project_id": "sih-ayush",
+    "storage_bucket": "sih-ayush.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684668735271:android:ad0423581060baa194a302",
+        "android_client_info": {
+          "package_name": "com.aniket.ayush"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684668735271-i3l0qecfek58bb6p4f7gvubstq5jfedn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKuWS0qeIOLacKKrS_1ZphO6EwCJg8l2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684668735271-i3l0qecfek58bb6p4f7gvubstq5jfedn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
