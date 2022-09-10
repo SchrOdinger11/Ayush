@@ -14,7 +14,9 @@ Features:
 
 ## User Journey 1: Admin Interface ##
 
-
+Functionalities:
+* Admin can view list of all hospitals that want to register themselves. 
+* Can accept / reject request based on the information and documents submitted by these service provider.
 
 <p align="center">
   <img src="/home1.jpg" width="190" />
@@ -25,6 +27,10 @@ Features:
 </p>
 
 ## User Journey 2: Consumer Panel ##
+Functionalities:
+* After fetching the current location of the consumer nearby service providers are displayed on the app ,more information is displayed when a particular hospital is clicked. 
+* Can view list of hospitals and a important information pertaining to them. 
+* On clicking the hospitals user can find a page to book an appointment.
 
 <p align="center">
  
@@ -36,6 +42,10 @@ Features:
 </p>
 
 ## User Journey 3: Service Provider Interface ##
+Functionalities:
+* Service providers can fill the registeration form to get themselves registered. 
+* They can view list of patients who intend to book an appointment with them. 
+* On clicking particular user all information is displayed.
 
 <p align="center">
 <img src="/Hospital 1.jpg" width="190" />
@@ -47,6 +57,10 @@ Features:
 </p>
 
 ## Technology Stack ##
-Frontend: 
-Backend:
-Cloud:
+<p>Frontend: Android Studio </p>
+
+<p>Backend:  NodeJs , ExpressJs </p>
+
+<p>Database: Firebase, MongoDB </p>
+<p>ML: SciKit Learn </p>
+<p>Cloud: Amazon Web Service </p>
