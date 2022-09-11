@@ -57,7 +57,7 @@ Functionalities:
 </p>
 
 ## Technology Stack ##
-<p>Frontend: Android Studio </p>
+<p>Frontend: Android Studio, Java, XML </p>
 
 <p>Backend:  NodeJs , ExpressJs </p>
 
